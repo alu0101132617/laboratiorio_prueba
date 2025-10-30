@@ -12,5 +12,9 @@ public class App {
         int a = 5;
         int b = 0;
         int c = a / b; // This will cause a division by zero error
+
+        # Adding unused variable for testing purposes in sonarQube
+        int unusedVariable = 10;
+        System.out.println( "This variable is never used: " + unusedVariable );
     }
 }
